@@ -49,7 +49,7 @@ async function drawLineChart() {
         .attr("width", dimensions.boundedWidth)
         .attr("y", meanTemperaturePlacement)
         .attr("height", dimensions.boundedHeight - meanTemperaturePlacement)
-        .attr("fill", "blue")  // Fazemos um retângulo para mostrar a parte mais fria
+        .attr("fill", "#e0f3ff")  // Fazemos um retângulo para mostrar a parte mais fria
 
     // Usa uma escala de tempo, pois estamos lidando do datas
     const xScale = d3.scaleTime()
